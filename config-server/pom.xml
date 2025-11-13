@@ -21,6 +21,12 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-config-server</artifactId>
         </dependency>
+        
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+        </dependency>
 
         <!-- Eureka Client to register with Eureka -->
         <dependency>
